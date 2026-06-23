@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tevârih</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Georgia, serif; background: #f5f0e8; color: #2c1810; min-height: 100vh; }
+    header { background: #7a1414; padding: 2rem; text-align: center; }
+    header h1 { color: #fff; font-size: 2.8rem; font-weight: normal; letter-spacing: 2px; }
+    header p { color: rgba(255,255,255,0.8); font-size: 1rem; margin-top: 0.5rem; }
+    .subtitle { text-align: center; padding: 2rem 1rem 1rem; font-size: 1rem; color: #666; max-width: 700px; margin: 0 auto; line-height: 1.7; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 900px; margin: 2rem auto 4rem; padding: 0 2rem; }
+    .card { background: #fff; border: 1px solid #d4c5a9; border-radius: 4px; overflow: hidden; text-decoration: none; color: inherit; display: block; transition: box-shadow 0.2s; }
+    .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
+    .card-header { background: #7a1414; padding: 1.5rem; }
+    .card-header h2 { color: #fff; font-size: 1.4rem; font-weight: normal; }
+    .card-header span { color: rgba(255,255,255,0.7); font-size: 0.85rem; font-family: sans-serif; }
+    .card-body { padding: 1.5rem; }
+    .card-body p { font-size: 0.9rem; line-height: 1.7; color: #444; margin-bottom: 1rem; }
+    .badge { display: inline-block; background: #f5f0e8; border: 1px solid #d4c5a9; padding: 4px 12px; border-radius: 2px; font-size: 0.8rem; font-family: sans-serif; color: #666; margin-right: 6px; margin-bottom: 6px; }
+    .card-footer { padding: 1rem 1.5rem; border-top: 1px solid #f0e8d8; text-align: right; font-family: sans-serif; font-size: 0.85rem; color: #7a1414; }
+    footer { text-align: center; padding: 2rem; font-family: sans-serif; font-size: 0.8rem; color: #999; border-top: 1px solid #d4c5a9; }
+    footer a { color: #7a1414; text-decoration: none; }
+    @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Tevârih</h1>
+  <p>Osmanlı Tarih Yazıcılığına Dijital Bir Yaklaşım</p>
+</header>
+<p class="subtitle">
+  Tevârih, Osmanlı tarih yazıcılığına ilişkin iki farklı kaynağı temel alan dijital katalog çalışmalarını bir araya getiren bir platformdur. Aşağıdan incelemek istediğiniz koleksiyonu seçiniz.
+</p>
+<div class="grid">
+  <a class="card" href="https://ays-aay.github.io/Tevarih-Babinger/">
+    <div class="card-header">
+      <h2>Tevârih-I</h2>
+      <span>Franz Babinger Koleksiyonu</span>
+    </div>
+    <div class="card-body">
+      <p>Franz Babinger'in <em>Osmanlı Tarih Yazarları ve Eserleri</em> adlı eserini temel alan dijital katalog. Müellifler, eserler ve yazma nüshalarına ilişkin verileri bir araya getirmektedir.</p>
+      <span class="badge">2170 kayıt</span>
+      <span class="badge">Harita</span>
+      <span class="badge">Kronoloji</span>
+      <span class="badge">Kütüphane Analizleri</span>
+    </div>
+    <div class="card-footer">Koleksiyona Git →</div>
+  </a>
+  <a class="card" href="https://ays-aay.github.io/Tevarih-Bursali/">
+    <div class="card-header">
+      <h2>Tevârih-II</h2>
+      <span>Bursalı Mehmed Tâhir Koleksiyonu</span>
+    </div>
+    <div class="card-body">
+      <p>Bursalı Mehmed Tâhir'in <em>Osmanlı Müellifleri</em> adlı eserinin 3. cildini temel alan dijital katalog. Müellifler ve eserlerine ilişkin veriler sistematik biçimde listelenmiştir.</p>
+      <span class="badge">847 kayıt</span>
+      <span class="badge">Müellif Memleketi</span>
+      <span class="badge">Müellif Mesleği</span>
+      <span class="badge">Müellif Ailesi</span>
+    </div>
+    <div class="card-footer">Koleksiyona Git →</div>
+  </a>
+</div>
+<footer>
+  <a href="https://dbb.marmara.edu.tr/">Marmara Üniversitesi Dijital Beşeri Bilimler Araştırma Merkezi</a>
+</footer>
+</body>
+</html>
